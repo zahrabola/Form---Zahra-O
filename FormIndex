@@ -20,12 +20,12 @@
     </div>
     <form class="form" id="form">
          <div class="form-control success">
-        
   <label>Username</label>
   <input type="text" placeholder="Abc123" id="username">
 <i class="far fa-check-circle"></i>
 <i class="fas fa-exclamation-circle"></i>
 <small> Error </small>
+</div>
 
 <div class="form-control error">
   <label>Email Address</label>
@@ -33,7 +33,7 @@
 <i class="far fa-check-circle"></i>
 <i class="fas fa-exclamation-circle"></i>
 <small> Error </small>
-
+</div>
 
 <div class="form-control">
   <label>Password</label>
@@ -41,14 +41,14 @@
 <i class="far fa-check-circle"></i>
 <i class="fas fa-exclamation-circle"></i>
 <small> Error </small>
-
+</div>
 <div class="form-control">
   <label>Password Check</label>
   <input type="password" placeholder="check password" id="passwordcheck">
 <i class="far fa-check-circle"></i>
 <i class="fas fa-exclamation-circle"></i>
 <small> Error </small>
-
+</div>
 <div class="form-control">
 <button> Submit </button>
 </div>

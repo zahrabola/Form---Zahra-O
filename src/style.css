@@ -46,6 +46,13 @@ body {
   padding: 10px;
   width: 100%;
 }
+
+.form-control i {
+  position: absolute;
+  top: 40px;
+  right: 10px;
+  visibility: hidden;
+}
 .form-control.success input {
   border-color: green;
 }
@@ -53,8 +60,8 @@ body {
   border-color: red;
 }
 .form-control.success i.fa-check-circle {
-  visibility: visible;
   color: green;
+  visibility: visible;
 }
 .form-control.error i.fa-exclamation-circle {
   visibility: visible;

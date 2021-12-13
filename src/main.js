@@ -39,4 +39,7 @@ function setSuccessFor(input) {
   const formControl = input.parentElement;
   formControl.className = "form-control success";
 }
+function isEmail(email) {
+  return /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email);
+}
 

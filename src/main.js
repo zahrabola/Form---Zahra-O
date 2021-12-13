@@ -33,6 +33,11 @@ function checkInputs() {
   } else {
     setSuccessFor(password);
   }
+   if (passwordcheckValue === "") {
+    setErrorFor(passwordcheck, "Password is not the same");
+  } else {
+    setSuccessFor(passwordcheck);
+  }
 }
 
 function setErrorFor(input, message) {

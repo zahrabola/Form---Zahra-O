@@ -28,6 +28,11 @@ function checkInputs() {
   } else {
     setSuccessFor(email);
   }
+   if (passwordValue === "") {
+    setErrorFor(password, "Password cannot be blank");
+  } else {
+    setSuccessFor(password);
+  }
 }
 
 function setErrorFor(input, message) {

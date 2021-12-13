@@ -20,7 +20,14 @@ function checkInputs() {
   } else {
     setSuccessFor(username);
   }
+
+  if (emailValue === "") {
+    setErrorFor(email, "Email cannot be blank");
+  } else {
+    setSuccessFor(email);
+  }
 }
+
 function setErrorFor(input, message) {
   const formControl = input.parentElement;
   const small = formControl.querySelector("small");

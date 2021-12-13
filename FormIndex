@@ -19,7 +19,7 @@
         <h2>Create Account </h2>
     </div>
     <form class="form" id="form">
-         <div class="form-control success">
+         <div class="form-control">
   <label>Username</label>
   <input type="text" placeholder="Abc123" id="username">
 <i class="far fa-check-circle"></i>
@@ -27,7 +27,7 @@
 <small> Error </small>
 </div>
 
-<div class="form-control error">
+<div class="form-control">
   <label>Email Address</label>
   <input type="text" placeholder="Abc123@gmail.com" id="username">
 <i class="far fa-check-circle"></i>
